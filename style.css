@@ -9,6 +9,16 @@
     text-align: center;
 }
 
+#searchbar input {
+    height: 40px;
+    width: 500px;
+    font-size: 20px;
+}
+
+#searchbar input:hover {
+    box-shadow: grey;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -17,6 +27,14 @@ ul {
 
 li {
     float: left;
+}
+
+.navbar a{
+    color: #000;
+    opacity: 0.75;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+
 }
 
 #navbarright li {
@@ -36,9 +54,26 @@ a:hover {
       text-decoration: underline;
 }
 
+#searchbar input {
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 1px;
+}
+
 button {
      display:inline-block;
+     background-color: #e4e4e4;
+     border-style: hidden;
+     border-radius: 5px;
+     padding: 10px;
 } 
+
+button:hover {
+    border-style: solid;
+    border-color: #c6c6c6;
+    border-width: 1px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
 
 #buttons {
       text-align: center;
